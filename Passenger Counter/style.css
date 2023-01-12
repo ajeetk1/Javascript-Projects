@@ -4,6 +4,10 @@ body{
     color: white;
 }
 
+#count-el{
+    margin-top:50px;
+}
+
 .container{
  width:600px;
  height: 600px;
@@ -20,7 +24,7 @@ btn{
 
 .btn1{
    background-color: #f79d00;
-   margin-top: 20%;
+   margin-top: 15%;
    width:150px;
    height:30px;
    border-radius: 10px;
@@ -36,4 +40,8 @@ height:30px;
 border-radius: 10px;
 padding-top: 10px;
 font-size: 20px;
+}
+
+#visit{
+    margin-top: 50px;
 }
