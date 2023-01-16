@@ -1,30 +1,52 @@
 //Create two variables.
 
-let firstCard = 9;
-let secondCard =12;
-let cards=[firstCard,secondCard]
-let sum = firstCard + secondCard;
+let cards=[]
+let sum = 0;
 let blackJack = false;
-let isAlive = true;   // Start of Game Alive
+let isAlive = false;   // Start of Game Alive
 let message ="";
 
-//console.log(sum);
+
+console.log(cards);
+
+function getRandomCard(){
+
+ let number = Math.floor(Math.random()*13)+1;
+ if (number)
+ return number;
+
+}
+
+
 let sumEL =document.getElementById("sum-el");
-
 let cardsEL= document.getElementById("cards-el");
-// Logic is sum needs to be equal or less then 21
-
 let messageEL = document.getElementById("message-el"); //Text Content Display
+
+let playerName = "Per";
+let playerChips =145;
+
+let playerEl= document.getElementById("player");
+//console.log(playerEl);
+playerEl.textContent= playerName + ": $" + playerChips;
 
 
 function startGame(){
+    isAlive = true;
+// First Card + Second Card
+let firstCard = getRandomCard()
+let secondCard = getRandomCard()
+cards=[firstCard,secondCard]
+sum = firstCard+secondCard;
+
     renderGame()
 }
 
 
 function renderGame(){
-// Here we are getting only firstCard & SecondCard;
-cardsEL.textContent = "Cards : " + cards[0] +" " + cards[1];
+cardsEL.textContent = "Cards : ";
+for (let i = 0;i < cards.length; i++) {
+cardsEL.textContent += cards[i] + " ";
+}
 // render all the cards
 sumEL.textContent="Sum : " + sum;
 if (sum<=20) {
@@ -39,14 +61,17 @@ messageEL.textContent = message;
 }
 
 function newCard () {
+if (isAlive=== true && blackJack===false ){
 console.log("Drawing new card from the deck");
-let card =10;
+let card = getRandomCard()
 sum +=card;
+cards.push(card);
+//console.log(cards)
 renderGame()
 }
-// CASH OUT we need to SAVE -- Winner - How to declare winner.
-// We need to set up variable to track that I have won black jack.
+}
 
-// console.log(blackJack);
-// console.log(isAlive);
+
+
+
 
