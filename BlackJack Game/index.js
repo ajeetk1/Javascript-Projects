@@ -22,7 +22,7 @@ let sumEL =document.getElementById("sum-el");
 let cardsEL= document.getElementById("cards-el");
 let messageEL = document.getElementById("message-el"); //Text Content Display
 
-let playerName = "Per";
+let playerName = "Person";
 let playerChips =145;
 
 let playerEl= document.getElementById("player");
