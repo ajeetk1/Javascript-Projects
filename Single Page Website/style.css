@@ -57,8 +57,7 @@ button{
   background: black;
   color: white;
   font-size: larger;
-  
-  
+
 
 }
 
@@ -73,4 +72,16 @@ button:hover{
   width:350px;
   height:700px;
   transform:rotate(50deg);
+}
+
+.products{
+  margin-left: 6%;
+  margin-top:40%;
+  height:200px;
+}
+
+#productEl{
+width:250px;
+height:450px;
+
 }
