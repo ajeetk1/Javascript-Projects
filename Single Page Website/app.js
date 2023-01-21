@@ -1,7 +1,18 @@
+
+// We are selecting the image id and storing in a variable.
+
 const imageEl = document.getElementById("image-el")
 //console.log(imageEl);
 
-window.addEventListener('scroll', () => {
-    const scrollPercent = (window.scrollX / window.innerHeight) * 100;
-    imageEl.style.transform = `rotate(${scrollPercent}deg)`;
-  });
+//window.scroll()
+
+window.addEventListener("scroll", function(){
+
+
+}
+
+
+ //const scroll= window.scrollY;
+//imageEl.style.transform = `rotate($scroll(-45deg)`;
+
+});
