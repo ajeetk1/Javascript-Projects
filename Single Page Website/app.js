@@ -4,15 +4,11 @@
 const imageEl = document.getElementById("image-el")
 //console.log(imageEl);
 
-//window.scroll()
+// Window Scroll Function with For Loop
+//Event
+window.addEventListener("scroll", function() {
+var scroll = window.scrollY;// Windows move 
 
-window.addEventListener("scroll", function(){
-
-
-}
-
-
- //const scroll= window.scrollY;
-//imageEl.style.transform = `rotate($scroll(-45deg)`;
+imageEl.style.transform = "rotate(0deg)";
 
 });
