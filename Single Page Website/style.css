@@ -90,11 +90,13 @@ height:450px;
   height: 800px;
   width:100%;
   background-color: wheat; 
+  padding-left: 30px;
 }
 
 .text{
-  margin-top: 40%;
+  margin-top: 32%;
   padding-top: 10%;
   line-height: 120px;
+  margin-bottom: 60px;
 }
 
