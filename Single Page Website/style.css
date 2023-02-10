@@ -100,3 +100,13 @@ height:450px;
   margin-bottom: 60px;
 }
 
+.welcome{
+  margin-left: 40%;
+}
+
+.new{
+font-weight:600;
+font-size: 100px;
+letter-spacing:-8px;
+line-height: 100px;
+}
