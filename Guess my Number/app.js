@@ -67,7 +67,7 @@ else if (root>secretNumber){
   document.querySelector('.number').textContent = '?';
   document.querySelector('.add').value = '';
   document.querySelector('body').style.backgroundColor = "black";
-  document.querySelector('.number').style.width = "10rem";
+  document.querySelector('.number').style.width = "16rem";
  });
  
 
