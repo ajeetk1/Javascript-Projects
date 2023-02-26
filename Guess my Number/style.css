@@ -19,8 +19,8 @@ margin-bottom: 100px;
  border: 2px solid black;
  margin-top: 10px;
  border-radius: 10px;
-
 }
+
 
 .text{
 text-align: end;
@@ -30,16 +30,18 @@ margin-top: -40px;
 }
 
 .number{
-width:10rem;
-height:7rem;
-padding-left: 40px;
-padding-top: 25px;
+width:15rem;
+height:9rem;
 background: white;
-font-size: 30px;
+font-size: 100px;
 font-weight: bold;
 color: black;
 border: 2px solid black;
-margin: 0 auto;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+border: 3px solid red;
+
 }
 
 .line{
@@ -51,7 +53,7 @@ margin: 0 auto;
 .add{
     width: 130px;
     height: 90px;
-    border: 2px solid black;
+    border: 2px solid red;
     margin-top: 15%;
     margin-left: 20%;
     font-size: 40px;
