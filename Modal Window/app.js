@@ -30,6 +30,11 @@ modalOpen.classList.remove('hidden');
 background.classList.remove('hidden');
 });
 
+const root = function(){
+    modalOpen.classList.add('hidden');
+    background.classList.add('hidden');
+}
+
 // click on close
 close.addEventListener('click', function(){
 console.log("clicked");
@@ -37,7 +42,7 @@ modalOpen.classList.add('hidden');
 background.classList.add('hidden');
 });
 
-// overlay 
+// Background
 
 background.addEventListener('click', function() {
 console.log("Background Again Clicked");
