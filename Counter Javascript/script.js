@@ -41,7 +41,7 @@ console.log(root)
 let Button = document.querySelectorAll('.button');
 console.log(Button)
 
-// For Each loop we have to use 
+//  Select all buttons using For Each Method.
 
 Button.forEach(function(item) {
 item.addEventListener('click', function(e) {
@@ -66,7 +66,6 @@ if (number<0){
         root.style.color = "orange";
     
 root.textContent=number;
-
 
 });
 });

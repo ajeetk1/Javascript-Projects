@@ -1,35 +1,32 @@
-// PsudeoCode
-// Initial Passenger initialize to Zero
-// Button Click Save and passenger count increase by 1.
-// Display increase count value.
+let count = 0;
 
-let count =0; // Passenger
-//console.log(count);
+// select all buttons and ids.
+const style = document.querySelector('.number');
+console.log (style);
 
-let countE = document.getElementById("count-el"); //Fetch
+const Button = document.querySelector('.btn1');
+console.log(Button);
 
-// Button Click - onClick Function to the increment button
+// Button Click Add
+Button.addEventListener('click',function() {
+//console.log("button Clicked")
+count++;
+style.textContent=count;
+style.style.color = "green";
 
-function increments() {  // Button Click Function
-count +=1;
-// Display Value to fetch
-countE.innerText=count;
-}
+});
 
-// Save Function 
-//Click button save so count value diplay passenger arrived
-// count value display passenger arrived 
+// Select another Button
+const button = document.querySelector('.btn2')
+console.log(button);
 
-const saveV=document.getElementById("visit"); //Fetch and save value
+const save = document.querySelector('.visit');
+console.log(save);
 
- function saves() {
- saveV.innerText += count;
- count=0;// 🤔 😡 Why count is not equal to zero.
- 
-}
+//Click Function 
+button.addEventListener('click' , function() {
+save.textContent = count;
+save.style.color = "orange";
+style.textContent =0;
+});
 
-// Once i save value increment button starts from Zero
-//count value display next to passenger arrived.
-
-//Display value next to passenger Arrived Current replacing it if i don't 
-// replace but add next to it.

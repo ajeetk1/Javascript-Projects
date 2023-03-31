@@ -4,8 +4,11 @@ body{
     color: white;
 }
 
-#count-el{
-    margin-top:50px;
+
+.number{
+    margin-top:60%;
+    font-size: 2rem;
+
 }
 
 .container{
@@ -40,8 +43,10 @@ height:30px;
 border-radius: 10px;
 padding-top: 10px;
 font-size: 20px;
+margin-bottom: 10%;
 }
 
-#visit{
-    margin-top: 50px;
+
+.visit{
+    font-size: 2rem;
 }
