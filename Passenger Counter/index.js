@@ -25,7 +25,7 @@ console.log(save);
 
 //Click Function 
 button.addEventListener('click' , function() {
-save.textContent = count;
+save.textContent= save.textContent+ " " +count; //append
 save.style.color = "orange";
 style.textContent =0;
 });
