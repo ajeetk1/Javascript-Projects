@@ -32,17 +32,19 @@ margin: 8% auto;
 
 .question{
 display: flex;
-justify-content: center;
-padding-top: 35px;
+margin-left:10px;
+padding-top: 15px;
 }
 
 .btn{
-margin-left: 20px;
+float:right;
+margin-right: 20px;
+margin-top: -18px;
 border:1px solid black;
 background: white;
 }
 
 .text{
- margin-top: 10%;
- display: block;
+ margin-left: 20%;
+ margin-top: -15%;
 }
