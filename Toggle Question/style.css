@@ -19,7 +19,7 @@ color: black;
     text-align: center;
 }
 
-.first{
+.first,.second{
 box-shadow: 10px 10px 0px 5px rgba(red, green, blue, alpha);
 border-radius: 10px;
 background: #6dd5ed;
@@ -42,9 +42,21 @@ margin-right: 20px;
 margin-top: -18px;
 border:1px solid black;
 background: white;
+height:20px;
+width:22px;
 }
 
 .text{
- margin-left: 20%;
- margin-top: -15%;
+ margin-left: 2%;
+ margin-top: 2%;
+ display:none;
 }
+
+.minus{
+margin-top: -19px;
+margin-right: -20px;
+height:20px;
+width:22px;
+display: none;
+}
+
