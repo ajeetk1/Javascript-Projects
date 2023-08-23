@@ -1,0 +1,40 @@
+
+body{
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+margin: 0px;
+padding:0px;
+background: linear-gradient();
+text-align: center;
+background:#946442;
+}
+
+.container{
+margin-top:10%;
+border:2px solid grey;
+width:600px;
+height:500px;
+border-radius: 10px;
+display:block;
+margin:10% auto;
+background: #ec8558;
+}
+
+input{
+width:250px;
+height:30px;
+border: 1px solid black;
+border-radius: 4px;
+}
+
+.btn{
+    display:block;
+    margin-top: 25px;
+    margin-left:40%;
+    width:120px;
+    height:30px;
+    background: linear-gradient(#25b3b0,#44bfc2,#d7e5cc);
+    font-size: 15px;
+    border-radius: 3px;
+    border: 1px solid #25b3b0;
+}
