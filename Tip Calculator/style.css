@@ -7,6 +7,7 @@ padding:0px;
 background: linear-gradient();
 text-align: center;
 background:#946442;
+font-size: 18px;
 }
 
 .container{
@@ -25,16 +26,17 @@ width:250px;
 height:30px;
 border: 1px solid black;
 border-radius: 4px;
+font-size: 15px;
 }
 
-.btn{
+#btn{
     display:block;
     margin-top: 25px;
     margin-left:40%;
     width:120px;
     height:30px;
     background: linear-gradient(#25b3b0,#44bfc2,#d7e5cc);
-    font-size: 15px;
+    font-size: 20px;
     border-radius: 3px;
     border: 1px solid #25b3b0;
 }
