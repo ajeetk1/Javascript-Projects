@@ -1,5 +1,7 @@
 
 const button = document.getElementById("btn");
+const number = document.getElementById("one");
+const ageResult = document.getElementById("ageResult")
 
 button.addEventListener("click" ,function(){
     const inputYear = document.getElementById("one").value;

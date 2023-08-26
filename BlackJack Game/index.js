@@ -14,9 +14,7 @@ function getRandomCard(){
  let number = Math.floor(Math.random()*13)+1;
  if (number)
  return number;
-
 }
-
 
 let sumEL =document.getElementById("sum-el");
 let cardsEL= document.getElementById("cards-el");
