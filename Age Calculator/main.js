@@ -3,22 +3,21 @@ const button = document.getElementById("btn");
 const number = document.getElementById("one");
 const ageResult = document.getElementById("ageResult");
 
-// Now we will see that the fetch age 
-// Age is entered fetch the age.
+// Check the value in the Date Input Box 
+// Creating Function 
+
+function calculateAge() {
+const birthdayValue = number.value;
+// Check user has entered Birth Date
+if (birthdayValue == ""){
+  console.log("Ask user to enter Birth Date")
+} else {
+// Birthday Date is Entered 
 
 
+}
 
-
-
-button.addEventListener("click" ,function(){
-    const inputYear = document.getElementById("one").value;
-    const currentYear = new Date().getFullYear();
-    const age = currentYear - inputYear;
-  
-const ageResult = document.getElementById("ageResult");
-  ageResult.textContent = age;
-    
-});
+}
 
 
 
