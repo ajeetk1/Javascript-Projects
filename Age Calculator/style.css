@@ -1,5 +1,5 @@
 body{
-background: #000f36;
+background: #e7d6c5;
 font-family: 'Open Sans', sans-serif;
 font-family: 'PT Serif', serif;
 }
@@ -7,9 +7,9 @@ font-family: 'PT Serif', serif;
 .container{
 width:500px;
 height:400px;
-border: solid 3px #3595d0;
+border: solid 3px #696045;
 border-radius: 10px;
-background: #00cef1;
+background:linear-gradient(#beaa90,#696045);
 display: block;
 margin:0 auto;
 margin-top:15%;
@@ -28,7 +28,7 @@ width:120px;
 height:28px;
 font-size: large;
 margin-left: 38%;
-background: linear-gradient(to left top, #0069b3,#3595d0);
+background: linear-gradient(to left top, #fefdfe,#beaa90);
 border:1px solid black;
 border-radius: 20px;
 font-family: Arial, Helvetica, sans-serif;
