@@ -1,0 +1,94 @@
+*{
+margin: 0;
+padding:0;
+box-sizing: border-box;
+background-color: white;
+font-family: 'Inter', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-size: 16px;
+
+}
+
+img{
+width:280px;
+height:250px;
+margin-top: -60px;
+}
+
+a{
+text-decoration: none;
+color: black;
+}
+
+a:hover{
+color:purple;
+}
+
+ul li{
+display:inline;
+margin: 20px;
+
+}
+
+.main-nav{
+text-align: center;
+margin-top:-138px;
+}
+
+.main-buttons{
+display: inline;
+float: right;
+padding-right: 90px;
+margin-top: -45px;
+}
+
+button{
+color: purple;
+width:90px;
+height:45px;
+border: 2px solid purple;
+margin: 15px;
+border-radius: 10px;
+background:purple;
+color: white;
+}
+
+button:hover{
+background:grey;
+color: purple;
+}
+
+/* Banner-Section */
+
+.main-banner{
+margin-top: 10%;
+}
+
+p{
+color: grey;
+font-size: 20px;
+
+}
+
+.banner-text{
+font-size: 96px;
+font-weight: 700;
+line-height: 116px;
+
+}
+
+span{
+font-size: 96px;
+color: purple;
+font-weight: 900;
+line-height: 116px;
+}
+
+.button-started{
+width:350px;
+height:50px;
+font-size: larger;
+margin-top: 5%;
+}
+
