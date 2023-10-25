@@ -92,3 +92,19 @@ font-size: larger;
 margin-top: 5%;
 }
 
+/* Trusted section */
+
+.next{
+font-size: 50px;
+}
+
+.primary{
+font-size: 50px;
+}
+
+.images{
+    width:250px;
+    height:110px;
+    margin-top: 1px;
+    margin: 10px;
+}
