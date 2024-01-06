@@ -287,14 +287,13 @@ color: black;
 color: black;
 }
 
-.fa-arrow-right{
-}
 
 /* Services Buttons*/
 
 .item{
 text-align: center;
 }
+
 .item-button,.item-button-services{
 color: black;
 display: inline-block;
@@ -359,4 +358,106 @@ z-index: 1;
 float:left;
 margin-left: 8%;
 margin-top: 50px;
+}
+
+.gallery-image-two,.gallery-image-three{
+width:796px;
+height:800px;
+margin-right: 8%;
+}
+
+.gallery-image-two{
+margin-top:-350px;
+margin-bottom: 30px;
+}
+
+.gallery-text{
+color: black;
+font-size: 22px;
+float: left;
+margin-left: 8%;
+margin-top: -20%;
+}
+
+/*Gallery Buttons*/
+
+.gallery-buttons{
+margin-left:8%;
+margin-top: -14%;
+}
+
+.gallery-button-one,.gallery-button-two{
+color: black;
+margin:20px;
+border: 2px solid black;
+width: 250px;
+height:90px;
+border-radius: 96px;
+letter-spacing: 0.06em;
+font-size:18px;
+font-weight: 500;
+text-align: center;
+}
+
+.gallery-button-one{
+background-color: black;
+color: white;
+}
+
+.gallery-button-two{
+background-color: white;
+}
+
+.gallery-line{
+width:45%;
+height:2px;
+float:left;
+margin-top:-6%;
+background-color: black;
+}
+
+/* Social Media Text*/
+.social-media-text{
+color: black;
+}
+
+.social-media{
+margin-left:8%;
+margin-top: 4%;
+font-size: 22px;
+}
+
+.social-media-icons{
+margin-left:38%;
+margin-top: -26px;
+}
+
+.fab{
+color: black;
+margin: 5px;
+}
+
+/* Free Quote Section*/
+
+.free-quote-section{
+margin-top:10%;
+width:100rem;
+height:700px;
+background-color: black;
+margin:7% 8%;
+}
+
+.quote-heading{
+font-size: 90px;
+margin-left: 8%;
+}
+
+.quote-line{
+background-color: white;
+height:2px;
+width:35px;
+}
+
+.quote-subtitle{
+margin-top:20%;
 }
