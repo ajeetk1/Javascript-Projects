@@ -4,6 +4,7 @@ margin: 0;
 padding: 0;
 font-family: 'Manrope', sans-serif;
 color: white;
+z-index: 2;
 }
 
 img{
@@ -265,18 +266,97 @@ display: flex;
 margin-left: 122px;
 }
 
-.text-below-image{
-margin-left: 2%;
+/* Text below images grid*/
+
+.image-container {
+display:grid;
+grid-template-columns: repeat(3, 1fr);
+grid-gap:20px;
+
 }
 
-.root{
-color: black;
-margin-top: 5%;
-
-
+.text-below-image-container{
+text-align: center;
 }
 
 h2{
 color: black;
 }
 
+.container-paragraph{
+color: black;
+}
+
+.fa-arrow-right{
+}
+
+/* Services Buttons*/
+
+.item{
+text-align: center;
+}
+.item-button,.item-button-services{
+color: black;
+display: inline-block;
+margin: 20px;
+margin-top: 50px;
+border: 2px solid black;
+width: 250px;
+height:68px;
+border-radius: 96px;
+padding: 26px,38px;
+letter-spacing: 0.06em;
+font-size:18px;
+font-weight: 500;
+padding-top: 40px;
+text-align: center;
+}
+
+.item-button-services{
+width:300px;
+}
+
+.item-button{
+background-color: black;
+color: white;
+}
+
+/*Gallery*/
+
+
+.gallery-heading{
+color: black;
+font-size: 18px;
+font-weight: 500;
+margin-left: 11%;
+margin-top: -22px;
+}
+
+.serviceline-gallery{
+background-color: black;
+width:2%;
+height: 2px;
+margin-left: 8%;
+margin-top: 10%;
+}
+
+.subtile-heading,.gallery-paragraph{
+color:black;
+margin-top:20px;
+margin-left: 8%;
+font-size: 90px;
+}
+
+.gallery-paragraph{
+font-size: 22px;
+margin-left:8%;
+}
+
+.gallery-image-one{
+width:796px;
+height:800px;
+z-index: 1;
+float:left;
+margin-left: 8%;
+margin-top: 50px;
+}
