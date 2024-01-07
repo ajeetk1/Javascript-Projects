@@ -441,23 +441,109 @@ margin: 5px;
 
 .free-quote-section{
 margin-top:10%;
-width:100rem;
-height:700px;
+width:102rem;
+height:900px;
 background-color: black;
 margin:7% 8%;
 }
 
-.quote-heading{
-font-size: 90px;
-margin-left: 8%;
+.subsection{
+padding-top: 8%;
+float: left;
 }
 
 .quote-line{
-background-color: white;
 height:2px;
-width:35px;
+background-color: white;
+width:45px;
+position: relative;
+margin-left:100px;
 }
 
 .quote-subtitle{
-margin-top:20%;
+box-sizing: border-box;
+font-size: 22px;
+margin-left:160px;
+margin-top: -25px;
 }
+
+.quote-title{
+margin-left:100px;
+font-size: 90px;
+margin-top: 25px;
+}
+
+.quote-paragraph{
+margin-left:100px;
+font-size: 22px;
+margin-top: 25px;
+}
+
+.quote-button{
+color:black;
+margin-left: 8%;
+margin-top: 40px;
+background-color: white;
+border: 2px solid black;
+width: 250px;
+height:90px;
+border-radius: 96px;
+letter-spacing: 0.06em;
+font-size:18px;
+font-weight: 500;
+text-align: center;  
+}
+
+/*Testimonial*/
+.testimonial-line{
+height:2px;
+background-color: black;
+width:45px;
+float:left;
+margin-top:10px;
+margin-left: 8%;
+}
+
+.testimonials-subheading{
+color:black;
+margin-left: 11%;
+}
+
+.testimonial-heading{
+font-size: 90px;
+color: black;
+margin-left:8%;
+margin-top: 30px;
+}
+
+.arrows{
+display: flex;
+justify-content: end;
+text-align: center;
+margin-top: -250px;
+margin-right: 8%;
+
+}
+
+.fas{
+color: black;
+font-size:50px;
+font-weight: normal;
+}
+
+.left-circle{
+border:2px solid black;
+width: 100px;
+height:100px;
+border-radius: 50%;
+margin: 10px;
+text-align: center;
+background-color: white;
+}
+
+.testimonial-section-line{
+height:2px;
+background-color: black;
+}
+
+/*Testimonial Banner Section*/
