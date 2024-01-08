@@ -1,0 +1,35 @@
+body{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+background-color:#FFFFFF;
+color: black;
+font-family: 'Manrope', sans-serif;
+}
+
+.footer {
+margin-left: 8%;
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 20px; /* Adjust the gap as needed */
+}
+
+
+img{
+width:300px;
+height:300px;
+}
+    
+.heading{
+color: black;
+font-size: 22px;
+font-weight: 500;
+line-height:30;
+font-style: normal;
+}
+
+.fas{
+color: black;
+font-size: 27px;
+margin:10px;
+}

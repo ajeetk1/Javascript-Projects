@@ -556,3 +556,44 @@ margin-left: 8%;
 margin-top: 200px;
 z-index:1;
 }
+
+
+
+
+
+
+
+/*About page CSS*/
+.about{
+font-size: 90px;
+color:white;
+margin-top: 180px;
+}
+
+.banner{
+height:70rem;
+background-color:black;
+}
+
+.about-paragraph{
+font-size: 22px;
+}
+
+.main-text{
+text-align: right;
+margin-right: 14%;
+padding-top: 11%;
+}
+
+.our{
+font-size: 20px;
+border-radius: 96px;
+margin-top:55px;
+width:280.59px;
+height:73.99px;
+text-align: center;
+margin-right: 18%;
+border:2px solid white;
+color: white;
+background-color: black;
+}
