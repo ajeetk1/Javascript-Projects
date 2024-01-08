@@ -547,3 +547,12 @@ background-color: black;
 }
 
 /*Testimonial Banner Section*/
+
+.onetestimonial{
+width:935px;
+height:652px;
+float:left;
+margin-left: 8%;
+margin-top: 200px;
+z-index:1;
+}
