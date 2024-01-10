@@ -943,15 +943,17 @@ height:2px;
 .instagram-image-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* Three equal-width columns */
-    grid-template-rows: repeat(2, 200px); /* Two rows with fixed height of 200px */
+    grid-template-rows: repeat(2, 300px); /* Two rows with fixed height of 200px */
     /* Optional padding for spacing around the grid */
     margin-right: 10%;
 }
 
-
 .image-item{
-height:284px;
-width:285.14px;
+width:100%;
+height:100%;
+object-fit: cover; /* Maintain aspect ratio for images */
+padding:10px; /* 10px padding for each image */
+box-sizing: border-box;
+margin-left:20%;
 opacity: 5;
-padding:10px;
 }
