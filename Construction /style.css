@@ -571,12 +571,20 @@ margin-top: 180px;
 }
 
 .banner{
-height:70rem;
+height:60rem;
 background-color:black;
+z-index:0;
 }
 
-.about-paragraph{
+.paragraph{
 font-size: 22px;
+color: white;
+}
+
+.first-line{
+display: inline-block;
+position:relative;
+left: -20px;
 }
 
 .main-text{
@@ -596,4 +604,149 @@ margin-right: 18%;
 border:2px solid white;
 color: white;
 background-color: black;
+}
+
+.about-line{
+width:97%;
+margin-left: 150px;
+}
+
+/*Images Section of About */
+.about-image{
+display: flex;
+justify-content: center;
+padding-top:70px;
+}
+
+.about-image-one{
+width:780px;
+height:641px;
+margin-left: 8%;
+z-index:1;
+position: relative;
+opacity:5;
+}
+
+.about-image-two{
+width:780px;
+height:537.91px;
+margin-right:9%;
+z-index:1;
+position:relative;
+opacity: 5
+}
+
+/* Our Story Text */
+.about-story{
+margin-top:20%;
+padding-bottom: 30px;
+}
+
+.second-line{
+background-color: black;
+width:45px;
+height:2px;
+float: left;
+margin-top: 12px;
+margin-left: 8%;
+}
+
+.about-subtitle{
+color: black;
+font-size: 20px;
+margin-top: 250px;
+margin-left: 11%;
+
+}
+
+/* Heading */
+.overlay-text{
+color: black;
+font-family:Manrope, sans-serif;
+font-size: 82px;
+margin-left: 8%;
+position:absolute;
+font-weight: 600;
+font-style: normal;
+line-height: 74px;
+padding-bottom: 30px;
+
+}
+
+.cover-paragraph-about{
+color: black;
+font-size: 22px;
+margin-left: 8%;
+padding-top: 200px;
+}
+
+.five{
+margin-right: 8%;
+width:780px;
+height:641px;
+margin-top: -500px;
+z-index:0;
+opacity:5;
+}
+
+.cover-button{
+position:relative;
+margin-top: 40px;
+margin-left: 8%;
+background-color: black;
+font-size: 18px;
+color: white;
+letter-spacing: .06em;
+padding: 26px 38px;
+font-weight: 500;
+width:250.06px;
+height:75.99px;
+border-radius: 96px;
+}
+
+/*--Second Div */
+
+.main-container{
+display: flex;
+justify-content: flex-end;
+
+}
+
+
+.container-text{
+color: black;
+font-family:Manrope, sans-serif;
+font-size: 82px;
+margin-left: 8%;
+position:absolute;
+font-weight: 600;
+font-style: normal;
+line-height: 74px;
+padding-bottom: 30px;
+margin-top: 180px;
+margin-right:135px;
+}
+
+.container-image{
+margin-right: 51%;
+margin-top: -130px;
+width:780px;
+height:641px;
+opacity: 5;
+}
+
+.container-line{
+width:45px;
+height:2px;
+background-color: black;
+text-align: right;
+}
+
+.container-subtitle{
+color:black;
+}
+
+.container-button{
+
+
 }
