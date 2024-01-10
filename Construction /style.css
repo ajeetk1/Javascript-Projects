@@ -831,7 +831,127 @@ font-size: 90px;
   .office{
   width:780px;
   height:641px;
-  margin-left: 8%;
+  margin-left: 12%;
   margin-top: 20%;
   opacity: 5;
   }
+
+  /*office-text*/
+
+  .grid-subheading-container{
+  margin-right:75%;
+  margin-top: 40%;
+
+  }
+ 
+  .office-line{
+   width:45px;
+   background-color: black;
+   height:2px;
+   text-align: center;
+   margin-right:73%;
+  }
+
+  .office-subheading{
+  color: black;
+  margin-top: -22px;
+  }
+
+  /*office-heading*/
+  .office-heading{
+  color: black;
+  font-size: 76px;
+  text-align: left;
+  margin-left:-15%;
+  margin-top: 30px;
+  }
+
+  .office-text{
+  font-size: 18px;
+  color: black;
+  text-align: left;
+  }
+
+  /* office location */
+  h1{
+  color: black;
+  text-align: left;
+  }
+
+  .office-address,.office-email{
+  color: black;
+  text-align: left;
+  font-size: 20px;
+  margin-left: 70px;
+  margin-top: -44px;
+  }
+
+  .address-icons{
+ text-align: left;
+  }
+  
+  .official{
+    width:50%;
+    background-color: black;
+    height:2px;
+    text-align: center;
+    margin-right:73%;
+  }
+
+  /*Instagram grid*/
+  .instagram-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+    /* Optional padding for spacing around the columns */
+}
+
+.instagram-subheading{
+color: black;
+text-align: left;
+margin-left: 13%;
+margin-top: -19px;
+}
+
+.instagram-heading{
+color: black;
+font-size: 78px;
+text-align: left;
+margin-left: 10%;
+}
+
+.instagram-line{
+width:44px;
+background-color: black;
+height:2px;
+margin-right: 87%;
+}
+
+.instagram-grid-item-two{
+color: black;
+font-size: 20px;
+text-align: right;
+margin-right: 8%;
+margin-top: -5%;
+}
+
+.divider{
+width:80%;
+background-color: black;
+height:2px;
+}
+
+.instagram-image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three equal-width columns */
+    grid-template-rows: repeat(2, 200px); /* Two rows with fixed height of 200px */
+    /* Optional padding for spacing around the grid */
+    margin-right: 10%;
+}
+
+
+.image-item{
+height:284px;
+width:285.14px;
+opacity: 5;
+padding:10px;
+}
