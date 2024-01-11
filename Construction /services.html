@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nstyles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Manrope:wght@400;600;700&family=Montserrat:wght@500;700&family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Services</title>
+</head>
+<div id="navigation-placeholder"></div>
+
+<div class="services-banner">
+<!--Services -Text-->
+<div class="service-container">
+<span class="service"></span>
+<span class="service-subheading">OUR SERVICES</span>
+<span class="service"></span>
+</div>
+<!--Service Main Text-->
+<div class="myservice-text">
+<h1 class="service-heading">We offer a wide </br> range of services</h1>
+<p class="service-heading-text">Nunc senectus orci mattis vivamus faucibus donec adipiscing turpis venenatis natoque gravida sed </br> magnis sed pretium ante arcu aliquet fringilla nullam penatibus nibh eget laoreet eu.</p>
+</div>
+</div>
+
+<body>
+<script>
+fetch('navigation.html')
+ .then(response => response.text())
+ .then(data => {
+document.getElementById('navigation-placeholder').innerHTML = data;
+})
+ .catch(error => console.error('Error fetching navigation.html:', error));
+</script>   
+    
+</body>
+</html>
