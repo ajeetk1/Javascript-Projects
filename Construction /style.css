@@ -1002,3 +1002,56 @@ font-size: 20px;
 }
 
 /* Service Grid */
+.service-grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 566px); /* Three columns of equal width */
+  justify-content: center;
+  margin-top: -20%;
+  margin-right: 4%;
+}
+
+/* Style for grid items (optional) */
+.service-grid-item {
+text-align: center;
+}
+
+/*Service Images*/
+
+.service-grid-item{
+}
+.service-one{
+width:510px;
+height: 600px;
+opacity:5;
+}
+
+.arrow-text{
+display: flex;
+}
+
+h1{
+margin-left: 55px;
+}
+
+.custom-arrow{
+position: relative;
+margin-left: 330px;
+margin-top: 20px;
+}
+
+.descriptive-text{
+color: grey;
+margin-left: -140px;
+font-size: 20px;
+}
+
+.descriptive-custom{
+width:480px;
+text-align: center;
+margin-left: 40px;
+margin-bottom: 10%;
+}
+
+.for-services{
+margin-left: 8%;
+}
