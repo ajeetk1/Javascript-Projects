@@ -1,10 +1,57 @@
 body{
-box-sizing: border-box;
+
 margin: 0;
 padding: 0;
 background-color:#FFFFFF;
-color: black;
+color: white;
 font-family: 'Manrope', sans-serif;
+}
+
+/* Footer Block*/
+
+.footer_block{
+box-sizing: border-box;
+background-color: black;
+width:85%;
+height:550px;
+margin: 0 auto;
+}
+
+.footer_block_text{
+margin-left: 10%;
+padding-top: 8%;
+}
+
+.block_line{
+width:30px;
+background-color: white;
+height:2px;
+float: left;
+margin-top: 11px;
+margin-right: 10px;
+
+}
+
+.block-subheading{
+color: white;
+font-size: 20px;
+}
+
+.block-heading{
+font-size: 74px;
+line-height: 74px;
+font-style: normal;
+font-weight: 600;
+}
+
+.block_quote{
+float: right;
+margin-right:100px;
+width:250px;
+height:90px;
+border-radius: 96px;
+font-size:20px;
+margin-top: -190px;
 }
 
 .footer {
