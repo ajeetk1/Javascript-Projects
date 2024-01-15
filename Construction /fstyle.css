@@ -1,5 +1,4 @@
 body{
-
 margin: 0;
 padding: 0;
 background-color:#FFFFFF;
@@ -29,7 +28,6 @@ height:2px;
 float: left;
 margin-top: 11px;
 margin-right: 10px;
-
 }
 
 .block-subheading{
@@ -58,10 +56,9 @@ margin-top: -190px;
 margin-left: 8%;
 display: grid;
 grid-template-columns: repeat(4, 400px);
-gap: 50px; /* Adjust the gap as needed */
+gap: 10px; /* Adjust the gap as needed */
 padding:20px;
 }
-
 
 img{
 width:240px;
@@ -74,19 +71,25 @@ color:black;
 font-size: 20px;
 }
 
-.footer-elements{
-display: grid;
-grid-template-columns: repeat(3, 250px);
-gap: 60px; /* Adjust the gap between columns */
-color: black;
+.first{
+margin-left: 200px;
 }
-    
+.border{
+margin-left: -9px;
+height:700px;
+}
+.second{
+margin-left:-150px;
+}
+
+
 .heading{
 color: black;
 font-size: 27px;
 font-weight: 400;
 line-height:20px;
 font-style: normal;
+margin-top: -80px;
 }
 
 .fas{
@@ -105,4 +108,66 @@ margin-top: -30px;
 padding-top: 20px;
 font-size: 18px;
 padding-left: 65px;
+}
+
+.second-column-heading{
+color: black;
+font-size: 20px;
+margin-top: 150px;
+letter-spacing: 4px;
+}
+
+.footer-pages{
+margin-left: -80%;
+}
+
+.footer-divider{
+width:400px;
+margin-left: -8px;
+height:2px;
+background-color: black;
+}
+
+.footer-links{
+display: grid;
+grid-template-columns: repeat(2, 150px);
+list-style: none;
+letter-spacing: 3px;
+}
+
+.footer-nav{
+padding-top: 15px;
+text-align: left;
+margin-left: -40px;
+
+}
+
+/*footer-column -second */
+.footer-nav{
+color: black;
+font-size: 20px;
+}
+
+.social-media{
+grid-column: 4;
+color: black;
+margin-top: -145%;
+font-size: 23px;
+letter-spacing: 4px;
+}
+
+.social-media-icons{
+font-size: 22px;
+}
+
+.footer-end{
+margin-left:-19px;
+}
+
+.footer_bottom{
+margin-bottom: 50px;
+height:2px;
+background-color: black;
+width:87%;
+margin-top: -40px;
 }
