@@ -7,7 +7,7 @@ color: white;
 z-index: 2;
 }
 
-img{
+banner_image{
 width: 50%;
 height:80em;
 display: block;
@@ -1057,3 +1057,180 @@ margin-left: 8%;
 }
 
 /*Contact us page CSS */
+
+
+/*Footer CSS*/
+
+/* Footer Block*/
+
+.footer_block{
+  box-sizing: border-box;
+  background-color: black;
+  width:85%;
+  height:550px;
+  margin: 0 auto;
+  margin-top: 75%;
+  }
+  
+  .footer_block_text{
+  margin-left: 10%;
+  padding-top: 15%;
+  }
+  
+  .block_line{
+  width:30px;
+  background-color: white;
+  height:2px;
+  float: left;
+  margin-top: 11px;
+  margin-right: 10px;
+  }
+  
+  .block-subheading{
+  color: white;
+  font-size: 20px;
+  }
+  
+  .block-heading{
+  font-size: 74px;
+  line-height: 74px;
+  font-style: normal;
+  font-weight: 600;
+  color: white;
+  margin-left:-9px;
+  }
+  
+  .block_quote{
+  float: right;
+  margin-right:100px;
+  width:250px;
+  height:90px;
+  border-radius: 96px;
+  font-size:20px;
+  margin-top: -190px;
+  }
+
+  /*Footer 3 Column Section*/
+   /*First Column */
+
+   .footer_main_bottom {
+    margin-left: 8%;
+    padding:20px;
+    display:grid;
+    grid-template-columns: repeat(4, 400px);
+     gap:10px;
+     padding:20px;
+    }
+    
+    img{
+    width:240px;
+    height:180px;
+    padding-top: 80px;
+    margin-left: 30px;
+    }
+    
+    .footer_section_text{
+    color:black;
+    font-size: 20px;
+    padding-bottom: 15px;
+    }
+
+    .horizontal_column{
+    height:2px;
+    background-color: black;
+    width:400px;
+    margin-left: -10px;
+    margin-top: -1px;
+    }
+
+    .vertical_divider{
+    border-left: 1px solid black;
+    height: 100%; 
+    margin-left: 83px;
+    }
+
+    /* second colomn heading*/
+
+    .section_heading{
+      color: black;
+      font-size: 27px;
+      font-weight: 400;
+      line-height:20px;
+      font-style: normal;
+      margin-top: -80px;
+      }
+      
+      .icon{
+      color: black;
+      font-size: 33px;
+      margin-top: 130px;
+      }
+      
+      .footer_column_text{
+      font-size: 20px;
+      padding-left: 65px;
+      margin-top: -30px;
+      }
+      
+      .footer-email{
+      padding-top: 20px;
+      font-size: 18px;
+      padding-left: 65px;
+      padding-bottom: 30px;
+      }
+
+      .vertical_column{
+        border-right: 1px solid black;
+      }
+
+      /* second Column */
+
+      .footer_navigation_pages{
+      margin-left: -60%;
+      }
+
+      .second-column-heading{
+        color: black;
+        font-size: 20px;
+        margin-top: 150px;
+        letter-spacing: 4px;
+        padding-bottom: 30px;
+        }
+        
+        .footer-links{
+        display: grid;
+        grid-template-columns: repeat(2, 150px);
+        list-style: none;
+        letter-spacing: 3px;
+        }
+        
+        .footer-nav{
+        padding-top: 10px;
+        text-align: left;
+        color: black;
+        margin:-2px;
+        margin-left: -40px;
+         }
+
+         /*Social Media section Footer */
+
+         .social_media_design_text{
+          color: black;
+          font-size: 20px;
+          padding-bottom: 20px;
+        }
+
+         .social_media_section{
+         grid-column: 4;
+         margin-top: -530px;
+         }
+
+         .footericons{
+          text-align: center;
+          padding-top: 50px;
+          font-size: 24px;
+         }
+
+         .social-media-icons{
+          margin-left:-10px;
+         }
