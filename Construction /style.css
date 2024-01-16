@@ -6,60 +6,91 @@ color: white;
 z-index: 2;
 }
 
-banner_image{
-width: 50%;
-height:80em;
-display: block;
-margin-left: auto;
-opacity: 0.7;
-}
-
-.img-container{
-position: relative
-}
-
 .main_frame{
+display: grid;
+grid-template-columns: repeat(1, 1fr); /* Three columns of equal width */
 background-color: black;
-display: flex;
-flex-direction: column;
-height:68rem;
+height:1100px;
+}
+
+.image_column{
+text-align: right;
+}
+
+.hero_banner_image{
+height:1450px;
+width:50%;
+margin-top:-50%;
+}
+
+.overlay_button{
+position: absolute;
+top: 145px;
+left:85%;
+transform: translate(-50%, -50%);
+width:160.27px;
+height:56px;
+border-radius: 96px;
+border: 2px solid black;
+font-size: 16px;
+padding: 18px,24px;
+font-size: 16px;
+line-height: 1.125em;
+font-weight: 500;
+background-color: white;
+color: black;
+cursor:pointer;
+}
+
+/* Top Nav and Button*/
+.top_logo{
+margin-left: 8%;
+margin-top: -50px;
+}
+
+.top_navi{
+margin-left: 400px;
+margin-top:-100px;
 }
 
 li{
-display: inline;
+display:inline;
 margin:20px;
 font-weight: 400;
 font-size: 18px;
 line-height: 30px;
-font-style: normal;
 }
 
-li:hover{
-font-weight: 700;
-font-size: 18px;
-line-height: 30px;
-cursor:default;
-}
+.nav-line{
+  height:1px;
+  background-color:  white;
+  width:1525px;
+  position:absolute;
+  top: calc(3% + 20px); /* Adjust this value based on your layout */
+  left: 90px;
+  margin-top: 9%;
+  margin-left: 100px;
+  }
 
-.top_navi{
-text-align: center;
-margin-left: 200px;
-margin-top: -10%;
-}
+ /*Hero Text*/
 
- .top_logo{
-width:180px;
-height:120px;
-margin-top: 150px;
-
+ .hero_column{
+ margin-top: 170px;
+ margin-left:135px;
  }
-.top_nav{
-position: absolute;
- /* Adjust this value based on your layout */
-transform: translateY(-50%);
-margin-left: 8%;
-margin-top:-10px;
-}
+  
+ .hero_banner_text{
+  position:absolute;
+ }
+
+
+ .hero_banner_paragraph{
+ margin-left: 60px;
+ padding-top: 312px;
+ font-size:18px;
+ font-weight: 400;
+ line-height: 30px;
+ }
 
 /* Button*/
 .button-overlay{
@@ -81,47 +112,41 @@ line-height: 1.125em;
 font-weight: 500;
 }
 
-.nav-line{
-height:1px;
-background-color:  white;
-width:1380px;
-position:absolute;
-top: calc(10% + 20px); /* Adjust this value based on your layout */
-left: 90px;
-margin-top: 10%;
-margin-left: 8%;
-}
+
 /* Nav Element Completed */
 
-
 /* Banner Text*/
+
 .hero{
-margin-top:-50%;
+margin-top:25%;
 margin-left:6%;
 }
 
-.banner-text{
+.hero_banner_text{
 font-weight: 600;
 font-size: 90px;
 line-height:104px;
 font-style: normal;
+ color: white;
 }
 
-.banner-paragraph{
+.hero_banner_paragraph{
 margin-top: -2%;
 font-weight: 400;
 font-size: 18px;
 line-height:30px;
 font-style: normal;
+color: white;
+margin-bottom: 50px;
 }
-
 .btn{
 margin: 10px;
-margin-left:6%;
+margin-left:10%;
 height:70px;
 width:180px;
 border-radius: 50px;
 background-color: white;
+
 }
 
 .two{
@@ -132,9 +157,10 @@ background-color: black;
 
 
 
+
 /* Number CSS*/
 .stats-container{
-margin-top:40%;
+margin-top:90%;
 display:flex;
 justify-content: space-around;
 align-items: center;
