@@ -318,47 +318,125 @@ margin-left: 122px;
 
 /* Text below images grid*/
 
-.image-container {
+.service_image-container {
 display:grid;
 grid-template-columns: repeat(3, 1fr);
 grid-gap:20px;
-
 }
 
-.text-below-image-container{
-text-align: center;
+.arrow_icon_one{
+margin-left: 610px;
 }
 
-h2{
+.arrow_icon_two{
+  margin-left: 500px;
+}
+
+.arrow_icon_three{
+  margin-left: 430px;
+}
+
+.below_image_text_one{
+margin-left: 150px;
+margin-top: -72px;
+font-weight: 600;
+font-size: 32px;
+line-height:74px;
+font-style: normal;
 color: black;
 }
 
-.container-paragraph{
+.container_paragraph_one{
+color: black;
+font-size: 20px;
+margin-left: 150px;
+padding-top: 20px;
+}
+
+.line_below_icon_praragraph_one{
+width:520px;
+height:1px;
+background-color: #000;
+margin-left: 150px;
+
+}
+
+/*-----Paragraph two */
+
+.below_image_text_two{
+margin-left: 36px;
+margin-top: -72px;
+font-weight: 600;
+font-size: 32px;
+line-height:74px;
+font-style: normal;
 color: black;
 }
+
+.container_paragraph_two{
+  color: black;
+  font-size: 20px;
+  margin-left: 35px;
+  padding-top: 20px;
+}
+
+.line_below_icon_praragraph_two{
+width:520px;
+height:1px;
+background-color: #000;
+margin-top: 40px;
+}
+
+/*Section Three */
+
+.below_image_text_three{
+  margin-left: -33px;
+  margin-top: -72px;
+  font-weight: 600;
+  font-size: 32px;
+  line-height:74px;
+  font-style: normal;
+  color: black;
+  }
+  
+  .container_paragraph_three{
+    color: black;
+    font-size: 20px;
+    padding-top: 20px;
+    margin-left: -33px;
+  }
+
+  .line_below_icon_praragraph_three{
+  height:1px;
+  background-color: black;
+  width:520px;
+  margin-left: -25px;
+  margin-top: 40px;
+  letter-spacing: 0.06em;
+  }
 
 
 /* Services Buttons*/
 
 .item{
 text-align: center;
+margin-top: 50px;
 }
 
 .item-button,.item-button-services{
-color: black;
-display: inline-block;
-margin: 20px;
-margin-top: 50px;
-border: 2px solid black;
-width: 250px;
-height:68px;
-border-radius: 96px;
-padding: 26px,38px;
-letter-spacing: 0.06em;
-font-size:18px;
-font-weight: 500;
-padding-top: 40px;
-text-align: center;
+  color: black;
+  margin:20px;
+  border: 2px solid black;
+  width: 250px;
+  height:50px;
+  border-radius: 96px;
+  letter-spacing: 0.06em;
+  font-size:18px;
+  font-weight: 500;
+  text-align: center;
+  display:inline-block;
+  padding-top: 25px;
+  
 }
 
 .item-button-services{
