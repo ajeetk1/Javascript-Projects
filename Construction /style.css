@@ -484,7 +484,7 @@ height:800px;
 z-index: 1;
 float:left;
 margin-left: 8%;
-margin-top: 50px;
+margin-top: -30px;
 }
 
 .gallery-image-two,.gallery-image-three{
@@ -494,8 +494,13 @@ margin-right: 8%;
 }
 
 .gallery-image-two{
-margin-top:-350px;
+margin-top:-320px;
 margin-bottom: 30px;
+}
+
+.gallery-image-three{
+margin-top: -60px;
+margin-bottom: 50px;
 }
 
 .gallery-text{
@@ -503,14 +508,14 @@ color: black;
 font-size: 22px;
 float: left;
 margin-left: 8%;
-margin-top: -20%;
+margin-top: -500px;
 }
 
 /*Gallery Buttons*/
 
 .gallery-buttons{
 margin-left:8%;
-margin-top: -14%;
+margin-top: -18%;
 }
 
 .gallery-button-one,.gallery-button-two{
@@ -539,24 +544,27 @@ background-color: white;
 width:45%;
 height:2px;
 float:left;
-margin-top:-6%;
+margin-top:-55px;
 background-color: black;
 }
 
 /* Social Media Text*/
 .social-media-text{
 color: black;
+margin-left: -130px;
 }
 
 .social-media{
+max-width: 900px;
 margin-left:8%;
 margin-top: 4%;
 font-size: 22px;
+display: flex;
+justify-content:space-around;
 }
 
 .social-media-icons{
-margin-left:38%;
-margin-top: -26px;
+margin-top: -3px;
 }
 
 .fab{
@@ -567,7 +575,7 @@ margin: 5px;
 /* Free Quote Section*/
 
 .free-quote-section{
-margin-top:10%;
+margin-top:15%;
 width:102rem;
 height:900px;
 background-color: black;
@@ -658,7 +666,7 @@ font-size:50px;
 font-weight: normal;
 }
 
-.left-circle{
+.left-circle,.right-circle{
 border:2px solid black;
 width: 100px;
 height:100px;
@@ -675,17 +683,28 @@ background-color: black;
 
 /*Testimonial Banner Section*/
 
-.onetestimonial{
-width:935px;
-height:652px;
-float:left;
-margin-left: 8%;
-margin-top: 200px;
-z-index:1;
+
+#slider_container{
+width:1800px;
+overflow: hidden;
 }
 
+#gallery{
+display:flex;
+transition: transform 0.5s ease; 
+}
 
+.first-image,.second-image,.third-image{
+width:1100px;
+height:800px;
+margin-left:160px;
+margin-top:150px;
+display: block;
+}
 
+.second-image{
+margin-left: 600px;
+}
 
 
 
