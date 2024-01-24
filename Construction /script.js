@@ -26,3 +26,34 @@ prevButton.addEventListener('click', () => {
     }
     imageTag.src = images[currentImage];
 });
+
+// Jquery for Testimonial
+// app.js
+
+$(document).ready(function () {
+    // Testimonial block HTML
+    var testimonialBlock = `
+        <div class="testimonial-block">
+            <div class="overlay-text-block">
+                <img src="person_image.png" class="client">
+                <div class="testimonial-block">
+                    <div class="client-text">“They did an amazing work</br> for our home”</div>
+                    <div class="client_text_paragraph">Sapien egestas ipsum ac odio sed nibh lorem </br> vulputate vulputate elit fusce varius lacus id </br> sed gravida pellentesque quis viverra.</div>
+                    <div class="client_divider">
+                        <hr class="clientname">
+                        <div class="client_name">JOHN CARTER, NEW YORK</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    `;
+
+    // Clone and append the testimonial block to each image
+    $(".image").each(function () {
+        var imageContainer = $(this).parent();
+        var clonedTestimonialBlock = $(testimonialBlock).clone();
+        imageContainer.append(clonedTestimonialBlock);
+    });
+});
+
+    

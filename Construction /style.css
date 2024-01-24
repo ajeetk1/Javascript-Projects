@@ -657,13 +657,16 @@ justify-content: end;
 text-align: center;
 margin-top: -250px;
 margin-right: 8%;
-
 }
 
 .fas{
 color: black;
 font-size:50px;
 font-weight: normal;
+}
+
+.fas:hover{
+color: white;
 }
 
 .left-circle,.right-circle{
@@ -674,6 +677,14 @@ border-radius: 50%;
 margin: 10px;
 text-align: center;
 background-color: white;
+}
+
+.left-circle:hover{
+background-color: black;
+}
+
+.right-circle:hover{
+background-color: black;
 }
 
 .testimonial-section-line{
@@ -692,19 +703,83 @@ overflow: hidden;
 #gallery{
 display:flex;
 transition: transform 0.5s ease; 
+margin-left:130px;
+margin-top:150px;
 }
 
 .first-image,.second-image,.third-image{
 width:1100px;
 height:800px;
-margin-left:160px;
-margin-top:150px;
 display: block;
 }
 
 .second-image{
 margin-left: 600px;
 }
+
+/*------*/
+.overlay-text-block{
+ width:650px;
+ height:400px;
+ background-color: lightgrey;
+ border:1px solid grey;
+ transform: translate(120%, -170%);
+ display:flex;
+ box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.client{
+width: 80px;
+height:80px;
+}
+
+.testimonial-block{
+  margin-top: 80px;
+  padding-left: 30px;
+  color: black;
+  }
+
+
+.client-text{
+font-weight:500;
+font-size: 28px;
+line-height: 40px;
+}
+
+.client_text_paragraph{
+font-weight:400;
+font-size: 18px;
+line-height: 30px;
+padding-top: 10px;
+color: grey;
+}
+
+.client_name{
+font-weight:500;
+font-size: 18px;
+line-height: 20px;
+margin-top: -22px;
+}
+
+.client_divider{
+display: inline;
+text-align: center;
+
+}
+
+.client_divider .clientname{
+display: inline-block;
+height:1px;
+background-color: black;
+width:50px;
+}
+
+
+
+
+
+
+
 
 
 
@@ -1215,12 +1290,12 @@ margin-left: 8%;
   width:85%;
   height:550px;
   margin: 0 auto;
-  margin-top: 75%;
+  margin-top: -15%;
   }
   
   .footer_block_text{
   margin-left: 10%;
-  padding-top: 15%;
+  padding-top: 10%;
   }
   
   .block_line{
