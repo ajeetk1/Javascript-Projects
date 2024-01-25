@@ -1,7 +1,7 @@
 body{
 margin: 0;
 padding: 0;
-font-family: 'Manrope', sans-serif;
+font-family: 'Manrope';
 color: white;
 z-index: 2;
 }
@@ -118,6 +118,8 @@ font-style: normal;
 color: white;
 margin-bottom: 50px;
 }
+
+
 .btn{
 margin: 10px;
 margin-left:10%;
@@ -784,28 +786,43 @@ width:50px;
 
 
 
+
+
+
+
+
+
+
+
+
+
 /*About page CSS*/
+
 .about{
 font-size: 90px;
 color:white;
-margin-top: 180px;
+margin-top: 250px;
+font-weight: 600;
+line-height: 104px;
+margin-left: 180px;
 }
 
 .banner{
-height:60rem;
+height:55rem;
 background-color:black;
 z-index:0;
 }
 
 .paragraph{
-font-size: 22px;
 color: white;
+margin-top:-380px;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
 }
 
-.first-line{
-display: inline-block;
-position:relative;
-left: -20px;
+#next-text{
+margin-right: -22px;
 }
 
 .main-text{
@@ -821,40 +838,45 @@ margin-top:55px;
 width:280.59px;
 height:73.99px;
 text-align: center;
-margin-right: 18%;
 border:2px solid white;
 color: white;
 background-color: black;
+margin-right: 13%;
+}
+
+.our:hover{
+background-color: white;
+color: black;
 }
 
 .about-line{
-width:97%;
-margin-left: 150px;
+width:1520px;
+margin-left: 180px;
 }
 
 /*Images Section of About */
 .about-image{
 display: flex;
 justify-content: center;
-padding-top:70px;
+margin-top: -80px;
 }
 
 .about-image-one{
-width:780px;
-height:641px;
+width:740px;
+height:820px;
 margin-left: 8%;
 z-index:1;
 position: relative;
-opacity:5;
+opacity:6;
 }
 
 .about-image-two{
-width:780px;
-height:537.91px;
+width:730px;
+height:700px;
 margin-right:9%;
 z-index:1;
 position:relative;
-opacity: 5
+opacity: 4;
 }
 
 /* Our Story Text */
