@@ -1284,6 +1284,7 @@ font-size: 20px;
   justify-content: center;
   margin-top: -20%;
   margin-right: 4%;
+  margin-bottom: 400px;
 }
 
 /* Style for grid items (optional) */
@@ -1293,8 +1294,6 @@ text-align: center;
 
 /*Service Images*/
 
-.service-grid-item{
-}
 .service-one{
 width:510px;
 height: 600px;
