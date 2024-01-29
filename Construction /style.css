@@ -878,7 +878,7 @@ z-index:1;
 position:relative;
 opacity: 4;
 }
-
+/*--------------------*/
 /* Our Story Text */
 .about-story{
 margin-top:20%;
@@ -899,7 +899,6 @@ color: black;
 font-size: 20px;
 margin-top: 250px;
 margin-left: 11%;
-
 }
 
 /* Heading */
@@ -913,7 +912,6 @@ font-weight: 600;
 font-style: normal;
 line-height: 74px;
 padding-bottom: 30px;
-
 }
 
 .cover-paragraph-about{
@@ -924,12 +922,11 @@ padding-top: 200px;
 }
 
 .five{
-margin-right: 8%;
 width:780px;
 height:641px;
-margin-top: -500px;
-z-index:0;
-opacity:5;
+margin-top:-560px;
+opacity:5; 
+margin-left: 48%;
 }
 
 .cover-button{
@@ -947,50 +944,83 @@ height:75.99px;
 border-radius: 96px;
 }
 
-/*--Second Div */
-/*
-.main-container{
-display: flex;
-align-items: center;
+*/----Second Div---- */
 
+
+.main-container{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+align-items: center;
+margin-top: 20%;
+}
+
+.image_wrap{
+width:750px;
+height:641px;
+opacity:5; 
+margin-left: 145px;
+margin-top: -180px;
 }
 
 
-.container-text{
+/* Wrapper Class */
+.text_wrapper{
 color: black;
-font-family:Manrope, sans-serif;
+text-align: right;
+margin-top: -420px;
+text-align: center;
+margin-bottom: 300px;
+margin-left: 200px;
+}
+
+.wrapper_heading{
+margin-bottom: 25px;
+display: flex;
+}
+
+.onenew{
+margin-left: 800px;
+}
+
+.wrapper_text{
+text-align: center;
+padding-right: 750px;
+}
+
+.onenew{
+background-color: black;
+width:45px;
+height:2px;
+margin-top: 12px;
+}
+
+.wrapper_text{
+color: black;
+font-size: 20px;
+}
+
+.main_text_wrapper_heading{
+color: black;
+font-family:Manrope;
 font-size: 82px;
-margin-left: 8%;
-position:absolute;
 font-weight: 600;
 font-style: normal;
 line-height: 74px;
+margin-left:350px;
+margin-bottom: 30px;
 }
 
-.container-image{
-margin-right: 51%;
-margin-top: -200px;
-width:780px;
-height:641px;
-opacity: 5;
+.sec{
+margin-left: -250px;
 }
 
-.container-line{
-width:45px;
-height:2px;
-background-color: black;
-text-align: right;
+.main_text_wrapper_paragraph{
+font-size: 20px;
+text-align: left;
+margin-left:850px;
+margin-top:25px;
 }
 
-.container-subtitle{
-color:black;
-}
-
-
-.text-wrapper{
-
-}
-*>
 
 /*Value Grid Section*/
 
@@ -1048,10 +1078,12 @@ gap: 10px; /* Adjust the gap between grid items */}
 padding: 30px;
 height:10%;
 text-align: center;
+
 }
       
 .grid-heading{
 color: white;
+font-size: 20px;
 }
 
 .grid-number{
@@ -1189,6 +1221,7 @@ height:2px;
     grid-template-rows: repeat(2, 300px); /* Two rows with fixed height of 200px */
     /* Optional padding for spacing around the grid */
     margin-right: 10%;
+    margin-bottom: 400px;
 }
 
 .image-item{
