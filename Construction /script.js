@@ -57,3 +57,19 @@ $(document).ready(function () {
 });
 
     
+function toggleAnswer(answerId) {
+    var answer = document.getElementById(answerId);
+    var question = answer.previousElementSibling;
+
+    if (answer.style.maxHeight === "0px" || answer.style.maxHeight === "") {
+        // Expand answer
+        answer.style.maxHeight = answer.scrollHeight + "px";
+        question.classList.add("expanded");
+        document.querySelector('.toggle-icon', question).innerHTML = '×';
+    } else {
+        // Collapse answer
+        answer.style.maxHeight = "0";
+        question.classList.remove("expanded");
+        document.querySelector('.toggle-icon', question).innerHTML = '+';
+    }
+}
