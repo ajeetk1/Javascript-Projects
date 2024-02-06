@@ -1,0 +1,1110 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Manrope';
+    color: white;
+    z-index: 2;
+    }
+    
+    .main_frame{
+    width:100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* Three columns of equal width */
+    background-color: black;
+    height:1100px;
+    }
+
+
+    
+    .image_column{
+    text-align: right;
+    }
+    
+    .hero_banner_image{
+    height:1450px;
+    width:50%;
+    margin-top:-50%;
+    }
+    
+    .overlay_button{
+    position: absolute;
+    top: 145px;
+    left:85%;
+    transform: translate(-50%, -50%);
+    width:160.27px;
+    height:56px;
+    border-radius: 96px;
+    border: 2px solid black;
+    font-size: 16px;
+    padding: 18px,24px;
+    font-size: 16px;
+    line-height: 1.125em;
+    font-weight: 500;
+    background-color: white;
+    color: black;
+    cursor:pointer;
+    }
+    
+    /* Top Nav and Button*/
+    .top_logo{
+    margin-left: 8%;
+    margin-top: -50px;
+    }
+    
+    .top_navi{
+    margin-left: 400px;
+    margin-top:-100px;
+    }
+    
+    li{
+    display:inline;
+    margin:20px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    }
+    
+    .nav-line{
+      height:1px;
+      background-color:  white;
+      width:1525px;
+      position:absolute;
+      top: calc(3% + 20px); /* Adjust this value based on your layout */
+      left: 90px;
+      margin-top: 9%;
+      margin-left: 100px;
+      }
+    
+     /*Hero Text*/
+    
+     .hero_column{
+     margin-top: 170px;
+     margin-left:135px;
+     }
+      
+     .hero_banner_text{
+      position:absolute;
+     }
+    
+     .hero_banner_paragraph{
+     margin-left: 60px;
+     padding-top: 312px;
+     font-size:18px;
+     font-weight: 400;
+     line-height: 30px;
+     }
+    
+    
+    /* Nav Element Completed */
+    
+    /* Banner Text*/
+    
+    .hero{
+    margin-top:25%;
+    margin-left:6%;
+    }
+    
+    .hero_banner_text{
+    font-weight: 600;
+    font-size: 90px;
+    line-height:104px;
+    font-style: normal;
+     color: white;
+    }
+    
+    .hero_banner_paragraph{
+    margin-top: -2%;
+    font-weight: 400;
+    font-size: 18px;
+    line-height:30px;
+    font-style: normal;
+    color: white;
+    margin-bottom: 50px;
+    }
+    
+    
+    .btn{
+    margin: 10px;
+    margin-left:10%;
+    border-radius: 50px;
+    background-color: white;
+    width:160.27px;
+    height:56px;
+    border-radius: 96px;
+    border: 2px solid black;
+    font-size: 16px;
+    padding: 18px,24px;
+    font-size: 16px;
+    line-height: 1.125em;
+    font-weight: 500;
+    background-color: white;
+    color: black;
+    cursor:pointer;
+    }
+    
+    .two{
+    margin-left:4px;
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /* Social Media Text*/
+    .social-media-text{
+    color: black;
+    margin-left: -130px;
+    }
+    
+    .social-media{
+    max-width: 900px;
+    margin-left:8%;
+    margin-top: 4%;
+    font-size: 22px;
+    display: flex;
+    justify-content:space-around;
+    }
+    
+    .social-media-icons{
+    margin-top: -3px;
+    }
+    
+    .fab{
+    color: black;
+    margin: 5px;
+    }
+    
+    /* Free Quote Section*/
+    
+    .free-quote-section{
+    margin-top:15%;
+    width:102rem;
+    height:900px;
+    background-color: black;
+    margin:7% 8%;
+    }
+    
+    .subsection{
+    padding-top: 8%;
+    float: left;
+    }
+    
+    .quote-line{
+    height:2px;
+    background-color: white;
+    width:45px;
+    position: relative;
+    margin-left:100px;
+    }
+    
+    .quote-subtitle{
+    box-sizing: border-box;
+    font-size: 22px;
+    margin-left:160px;
+    margin-top: -25px;
+    }
+    
+    .quote-title{
+    margin-left:100px;
+    font-size: 90px;
+    margin-top: 25px;
+    }
+    
+    .quote-paragraph{
+    margin-left:100px;
+    font-size: 22px;
+    margin-top: 25px;
+    }
+    
+    .quote-button{
+    color:black;
+    margin-left: 8%;
+    margin-top: 40px;
+    background-color: white;
+    border: 2px solid black;
+    width: 250px;
+    height:90px;
+    border-radius: 96px;
+    letter-spacing: 0.06em;
+    font-size:18px;
+    font-weight: 500;
+    text-align: center;  
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /*About page CSS*/
+
+
+    .banner{
+    height:55rem;
+    background-color:black;
+    z-index:0;
+    }
+    
+
+    .about-contact-heading{
+    font-size: 90px;
+    color:white;
+    margin-top: 250px;
+    font-weight: 600;
+    line-height: 104px;
+    margin-left: 180px;
+    }
+
+    /* Responsive Section */
+
+    @media only screen and (max-width: 600px){
+    body{
+    text-align: center;
+    
+    }
+
+    .about-contact-heading{
+    font-size:32px;
+    }
+}
+    
+    
+
+    
+    
+    
+    .paragraph{
+    color: white;
+    margin-top:-380px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    }
+    
+    #next-text{
+    margin-right: -22px;
+    }
+    
+    .main-text{
+    text-align: right;
+    margin-right: 14%;
+    padding-top: 11%;
+    }
+    
+    .our{
+    font-size: 20px;
+    border-radius: 96px;
+    margin-top:55px;
+    width:280.59px;
+    height:73.99px;
+    text-align: center;
+    border:2px solid white;
+    color: white;
+    background-color: black;
+    margin-right: 13%;
+    }
+    
+    .our:hover{
+    background-color: white;
+    color: black;
+    }
+    
+    .about-line{
+    width:1520px;
+    margin-left: 180px;
+    }
+    
+    
+    /*--------------------*/
+    /* Our Story Text */
+    .about-story{
+    margin-top:20%;
+    padding-bottom: 30px;
+    }
+    
+    .second-line{
+    background-color: black;
+    width:45px;
+    height:2px;
+    float: left;
+    margin-top: 12px;
+    margin-left: 8%;
+    }
+    
+    .about-subtitle{
+    color: black;
+    font-size: 20px;
+    margin-top: 250px;
+    margin-left: 11%;
+    }
+    
+    /* Heading */
+    .overlay-text{
+    color: black;
+    font-family:Manrope, sans-serif;
+    font-size: 82px;
+    margin-left: 8%;
+    position:absolute;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 74px;
+    padding-bottom: 30px;
+    }
+    
+    .cover-paragraph-about{
+    color: black;
+    font-size: 22px;
+    margin-left: 8%;
+    padding-top: 200px;
+    }
+    
+    .five{
+    width:780px;
+    height:641px;
+    margin-top:-560px;
+    opacity:5; 
+    margin-left: 48%;
+    }
+    
+    .cover-button{
+    position:relative;
+    margin-top: 40px;
+    margin-left: 8%;
+    background-color: black;
+    font-size: 18px;
+    color: white;
+    letter-spacing: .06em;
+    padding: 26px 38px;
+    font-weight: 500;
+    width:250.06px;
+    height:75.99px;
+    border-radius: 96px;
+    }
+    
+    */----Second Div---- */
+    
+    
+    .main-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    margin-top: 20%;
+    }
+    
+    .image_wrap{
+    width:750px;
+    height:641px;
+    opacity:5; 
+    margin-left: 145px;
+    margin-top: -180px;
+    }
+    
+    
+    /* Wrapper Class */
+    .text_wrapper{
+    color: black;
+    text-align: right;
+    margin-top: -420px;
+    text-align: center;
+    margin-bottom: 300px;
+    margin-left: 200px;
+    }
+    
+    .wrapper_heading{
+    margin-bottom: 25px;
+    display: flex;
+    }
+    
+    .onenew{
+    margin-left: 800px;
+    }
+    
+    .wrapper_text{
+    text-align: center;
+    padding-right: 750px;
+    }
+    
+    .onenew{
+    background-color: black;
+    width:45px;
+    height:2px;
+    margin-top: 12px;
+    }
+    
+    .wrapper_text{
+    color: black;
+    font-size: 20px;
+    }
+    
+    .main_text_wrapper_heading{
+    color: black;
+    font-family:Manrope;
+    font-size: 82px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 74px;
+    margin-left:350px;
+    margin-bottom: 30px;
+    }
+    
+    .sec{
+    margin-left: -250px;
+    }
+    
+    .main_text_wrapper_paragraph{
+    font-size: 20px;
+    text-align: left;
+    margin-left:850px;
+    margin-top:25px;
+    }
+    
+
+    /* our offices CSS */
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
+        gap: 10px; /* Adjust the gap between grid items */
+      }
+      
+      .grid-item {
+        border: 1px solid #000;
+        padding: 20px;
+        text-align: center;
+      }
+      
+      .office{
+      width:780px;
+      height:641px;
+      margin-left: 12%;
+      margin-top: 20%;
+      opacity: 5;
+      }
+    
+      /*office-text*/
+    
+      .grid-subheading-container{
+      margin-right:75%;
+      margin-top: 40%;
+    
+      }
+     
+      .office-line{
+       width:45px;
+       background-color: black;
+       height:2px;
+       text-align: center;
+       margin-right:73%;
+      }
+    
+      .office-subheading{
+      color: black;
+      margin-top: -22px;
+      }
+    
+      /*office-heading*/
+      .office-heading{
+      color: black;
+      font-size: 76px;
+      text-align: left;
+      margin-left:-15%;
+      margin-top: 30px;
+      }
+    
+      .office-text{
+      font-size: 18px;
+      color: black;
+      text-align: left;
+      }
+    
+      /* office location */
+      h1{
+      color: black;
+      text-align: left;
+      }
+    
+      .office-address,.office-email{
+      color: black;
+      text-align: left;
+      font-size: 20px;
+      margin-left: 70px;
+      margin-top: -44px;
+      }
+    
+      .address-icons{
+     text-align: left;
+      }
+      
+      .official{
+        width:50%;
+        background-color: black;
+        height:2px;
+        text-align: center;
+        margin-right:73%;
+      }
+    
+      /*Instagram grid*/
+      .instagram-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+        /* Optional padding for spacing around the columns */
+    }
+    
+    .instagram-subheading{
+    color: black;
+    text-align: left;
+    margin-left: 13%;
+    margin-top: -19px;
+    }
+    
+    .instagram-heading{
+    color: black;
+    font-size: 78px;
+    text-align: left;
+    margin-left: 10%;
+    }
+    
+    .instagram-line{
+    width:44px;
+    background-color: black;
+    height:2px;
+    margin-right: 87%;
+    }
+    
+    .instagram-grid-item-two{
+    color: black;
+    font-size: 20px;
+    text-align: right;
+    margin-right: 8%;
+    margin-top: -5%;
+    }
+    
+    .divider{
+    width:80%;
+    background-color: black;
+    height:2px;
+    }
+    
+    .instagram-image-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* Three equal-width columns */
+        grid-template-rows: repeat(2, 300px); /* Two rows with fixed height of 200px */
+        /* Optional padding for spacing around the grid */
+        margin-right: 10%;
+        margin-bottom: 400px;
+    }
+    
+    .image-item{
+    width:100%;
+    height:100%;
+    object-fit: cover; /* Maintain aspect ratio for images */
+    padding:10px; /* 10px padding for each image */
+    box-sizing: border-box;
+    margin-left:20%;
+    opacity: 5;
+    }
+    
+    
+    
+    /* Service Main Text*/
+    
+    /*Contact us page CSS */
+    
+    
+    /*Footer CSS*/
+    
+    /* Footer Block*/
+    
+    .footer_block{
+      box-sizing: border-box;
+      background-color: black;
+      width:85%;
+      height:550px;
+      margin: 0 auto;
+      margin-top: -15%;
+      }
+      
+      .footer_block_text{
+      margin-left: 10%;
+      padding-top: 10%;
+      }
+      
+      .block_line{
+      width:30px;
+      background-color: white;
+      height:2px;
+      float: left;
+      margin-top: 11px;
+      margin-right: 10px;
+      }
+      
+      .block-subheading{
+      color: white;
+      font-size: 20px;
+      }
+      
+      .block-heading{
+      font-size: 74px;
+      line-height: 74px;
+      font-style: normal;
+      font-weight: 600;
+      color: white;
+      margin-left:-9px;
+      }
+      
+      .block_quote{
+      float: right;
+      margin-right:100px;
+      width:250px;
+      height:90px;
+      border-radius: 96px;
+      font-size:20px;
+      margin-top: -190px;
+      }
+    
+      /*Footer 3 Column Section*/
+       /*First Column */
+    
+       .footer_main_bottom {
+        margin-left: 8%;
+        padding:20px;
+        display:grid;
+        grid-template-columns: repeat(4, 400px);
+         gap:10px;
+         padding:20px;
+        }
+        
+        img{
+        width:240px;
+        height:180px;
+        padding-top: 80px;
+        margin-left: 30px;
+        }
+        
+        .footer_section_text{
+        color:black;
+        font-size: 20px;
+        padding-bottom: 15px;
+        }
+    
+        .horizontal_column{
+        height:2px;
+        background-color: black;
+        width:400px;
+        margin-left: -10px;
+        margin-top: -1px;
+        }
+    
+        .vertical_divider{
+        border-left: 1px solid black;
+        height: 100%; 
+        margin-left: 83px;
+        }
+    
+        /* second colomn heading*/
+    
+        .section_heading{
+          color: black;
+          font-size: 27px;
+          font-weight: 400;
+          line-height:20px;
+          font-style: normal;
+          margin-top: -80px;
+          }
+          
+          .icon{
+          color: black;
+          font-size: 33px;
+          margin-top: 130px;
+          }
+          
+          .footer_column_text{
+          font-size: 20px;
+          padding-left: 65px;
+          margin-top: -30px;
+          }
+          
+          .footer-email{
+          padding-top: 20px;
+          font-size: 18px;
+          padding-left: 65px;
+          padding-bottom: 30px;
+          }
+    
+          .vertical_column{
+            border-right: 1px solid black;
+          }
+    
+          /* second Column */
+    
+          .footer_navigation_pages{
+          margin-left: -60%;
+          }
+    
+          .second-column-heading{
+            color: black;
+            font-size: 20px;
+            margin-top: 150px;
+            letter-spacing: 4px;
+            padding-bottom: 30px;
+            }
+            
+            .footer-links{
+            display: grid;
+            grid-template-columns: repeat(2, 150px);
+            list-style: none;
+            letter-spacing: 3px;
+            }
+            
+            .footer-nav{
+            padding-top: 10px;
+            text-align: left;
+            color: black;
+            margin:-2px;
+            margin-left: -40px;
+             }
+    
+             /*Social Media section Footer */
+    
+             .social_media_design_text{
+              color: black;
+              font-size: 20px;
+              padding-bottom: 20px;
+            }
+    
+             .social_media_section{
+             grid-column: 4;
+             margin-top: -530px;
+             }
+    
+             .footericons{
+              text-align: center;
+              padding-top: 50px;
+              font-size: 24px;
+             }
+    
+             .social-media-icons{
+              margin-left:-10px;
+             }
+              /*$$$$$$$$$$$$$$$$$$$$$$*/
+             /*Contact us page*/
+             
+             .banner{
+              display:flex;
+              justify-content: space-between;
+             }
+    
+             .footer_column_text{
+              color: grey;
+              margin-left: -14px;
+             }
+    
+             .footer-email{
+              margin-left: -14px;
+              margin-top: -11px;
+             }
+            
+             .header_heading_email .header_heading_phone{
+              cursor: pointer;
+              transition: transform 0.3s;
+             }
+    
+             .header_heading_email:hover{
+              transform: scale(1.1);
+             }
+    
+             .header_heading_phone:hover{
+              transform: scale(1.1);
+             }
+             
+             .white{
+              color: white;
+              font-size: 35px;
+              padding-top: 5px;
+              
+             }
+         
+             .header_heading_email{
+              color:white;
+              padding-top: 145px;
+             }
+    
+             .header_heading_phone{
+              padding-top: 145px;
+              margin-right: 220px;
+             }
+    
+             /* Third Heading Phone number on Banner*/
+    
+             
+              .footer-number{
+              font-size: 23px;
+              margin-left: 50px;
+              }
+     
+              .bottom-line{
+              height:1px;
+              background: white;
+              margin-top: -400px;
+              }
+    
+              /*Responsive Section*/
+              
+              
+              
+    
+              
+    
+              
+              
+             /*--------------*/
+              
+              .two-column-form{
+              margin-top: 450px;
+              display:grid;
+              grid-template-columns: 1fr 1fr;
+              gap:20px;
+              }
+    
+              
+         
+    
+            /*Form Styling */
+              /*Left Side */
+    
+              .two-column-form{
+                background-color: black;
+                height:500px;
+              }
+    
+              .form-image{
+              margin-top: -430px;
+              margin-left: 160px;
+              }
+    
+              .form{
+              width:500px;
+              height:690px;
+              }
+    
+              .root{
+              width:500px;
+              margin-left: 25px;
+              }
+    
+              
+    
+              /*----------Form Boxes--------*/
+              
+              #boxes{
+              width:400.31px;
+              height:72px;
+              border-radius: 100px;
+              border: 1px solid white;
+              background-color: black;
+              color: white;
+              margin:30px;
+              font-size: 20px;
+              }
+    
+              .row-one{
+              margin-top: -377px;
+              margin-left:-150px;
+              }
+    
+              .row-two{
+                margin-left:-150px;
+                margin-bottom: 30px;
+              }
+    
+              .box{
+              height:280px;
+              width:850px;
+              margin-left: -115px;
+              background-color: black;
+              border:1px solid white;
+              border-radius:15px;
+              font-size:20px;
+              color: white;
+              margin-bottom: 30px;
+              }
+    
+              .send{
+                width:400.31px;
+                height:72px;
+                border-radius: 100px;
+                border: 1px solid white;
+                font-size: 20px;
+                margin-top: 30px;
+                margin-left: -120px;
+              }
+    
+              .social-media-tenth{
+              display: flex;
+              }
+    
+              .social-media-text-ten{
+                color: white;
+              }
+           
+              .social-media-icons-ten{
+                background-color: black;
+              }
+    
+              .ten{
+                color: white;
+              }
+    
+             /* FAQ Section */
+             
+            .faq {
+                text-align: center;
+                position: relative;
+                margin: 20px 0; /* Adjust the margin as needed */
+            }
+    
+            
+            .faq-line{
+              display: inline-block;
+              width: 45px;
+              height: 2px;
+              background-color: #000;
+          }
+             
+            .faq-heading {
+                color: black;
+                display: inline-block;
+                background-color: white; /* Set the background color to match the page background */
+                padding: 0 10px; /* Adjust padding as needed */
+                font-size: 18px; /* Adjust font size as needed */
+            }
+    
+            /*------------------------------*/
+            .faq-main{
+            text-align: center;
+            font-size: 74px;
+            }
+    
+            .faq-text{
+            color: grey;
+            font-size: 20px
+            }
+    
+            /*-------------------------*/
+             
+            .accordion{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            }
+    
+            .answer{
+            color: grey;
+              }
+    
+              .label{
+              color: black;
+              font-size: 25px;
+              margin-bottom: 10px;
+              }
+    
+              .answer{
+              width:500px;
+              margin-left: 95px;
+              text-align: left;
+              }
+              
+              .accordion .faq-box .label{
+              position:relative;
+              padding: 10px;
+              background:white;
+              cursor: pointer;
+              }
+              
+              .accordion .faq-box .label::before
+              {
+              content:'+';
+              position: absolute;
+              top:50%;
+              right:10px;
+              margin-left: -10px;
+              transform: translateY(-50%);
+              font-size: 1.5em;
+              border:1px solid black;
+              width:49px;
+              height:49px;
+              border-radius: 50%;
+            }
+              
+              .accordion .faq-box.active .label::before{
+              content: 'x';
+              }
+              
+              .accordion .faq-box .answer{
+              position:relative;
+              padding: 10px;
+              background:#fff;
+              height:0;
+              overflow: hidden;
+              transition:0.5s;
+              font-size: 18px;
+              
+              }
+              
+              .accordion .faq-box.active .answer{
+              height:150px;
+              padding: 10px;
+              }
+    
+              .faq-line{
+              background:black;
+              width:580px;
+              height:1px;
+              margin-top: 10px;
+              margin-left: 80px;
+              }
+              
+            .accordion-column{
+            width:700px
+            }
+              
+            .initial{
+            margin-left: 100px;
+            }
+    
+            @media screen and (max-width: 600px) {
+            .banner{
+            width:100%;
+            }
+            
+            
+
+            }
+            

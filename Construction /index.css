@@ -1,0 +1,424 @@
+
+body{
+background: black;
+font-family: 'Manrope' sans-serif;
+color: white;
+margin: 0;
+padding:0;
+box-sizing: border-box;
+width:100%;
+height:100vh;
+}
+
+/*Navigation*/
+
+header{
+display:flex;
+justify-content: space-between;
+align-items: center;
+margin-right: 120px;
+}
+
+.logo{
+width:180px;
+height:140px;
+margin-left: 120px;
+margin-top: 50px;
+margin-right: 25px;
+}
+
+.navigation{
+display: flex;
+align-items: center;
+margin-top: 40px;
+}
+
+ .navigation ul{
+display: flex;
+list-style: none;
+margin-right: 800px;
+padding: 0;
+}
+
+
+li {
+font-family: 'Manrope', sans-serif;
+margin-right: 20px;
+margin: 25px;
+font-size: 18px;
+font-style: normal;
+line-height: 30px;
+font-weight: 400;
+}
+
+li:hover{
+color: grey;
+cursor: pointer;
+}
+
+.button-container{
+margin-left: auto;
+margin-top: 40px;
+margin-left: -95px;
+}
+
+
+.quote{
+width:180px;
+height:70px;
+border-radius:50px;
+font-size: 18px;
+font-style: normal;
+line-height: 30px;
+font-weight: 400;
+box-shadow: none;
+outline:none;
+transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, outline 0.3s ease-in-out;
+}
+
+.quote:hover{
+transform: scale(1.1);
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.divider{
+width:85%;
+margin-left: 145px;
+margin-right: 120px;
+
+}
+
+.hamburger_menu {
+display: none; /* Initially hide the hamburger menu */
+
+}
+
+.fa-bars {
+    font-size: 24px;
+    color: white;
+    cursor: pointer;;
+}
+
+
+
+
+/*Responsive Menu*/
+@media only screen and (max-width: 600px) {
+    .logo{
+    width:90px;
+    height:80px;
+    margin-left: 10px;
+    margin-top: 10px;
+    }
+
+    li{
+    color:white;
+    }
+
+    .navigation.show{
+    display:flex;
+    }
+
+    .navigation{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    }
+
+    .navigation ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+        
+    .navigation li {
+        margin: 0;
+        text-align: center;
+        padding: 10px;
+        color: white;
+    }
+
+    .hamburger_menu {
+        display: block;
+        position: absolute;
+        top:40px;
+        right: 30px;
+    }
+
+    .divider{
+    width:300px;
+    left:10px;
+    margin-left:25px;
+    
+    }
+
+    .button-container{
+    margin-left: auto;
+
+    }
+
+    .quote{
+    text-align: center;
+    width:300px;
+    margin-left: 20px;
+    height:50px;
+    }
+}
+
+/*---- Second Section */
+
+.main_banner_section{
+display:flex;
+justify-content:space-between;
+align-items: center;
+margin-top: 120px;
+margin-right: 120px;
+margin-bottom: 50px;
+}
+
+.header_heading_email,.contact_container{
+display:flex;
+}
+
+.contact-container{
+transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, outline 0.3s ease-in-out;
+}
+
+.contact-container:hover{
+ transform: scale(1.1);
+}
+
+.footer-email{
+margin-top: 6px;
+}
+
+.about-contact-heading{
+margin-left: 135px;
+white-space: nowrap;
+font-family: Manrope;
+font-style: normal;
+font-weight: 600;
+font-size: 90px;
+line-height:104px;
+}
+
+.root .footer_column_text {
+font-size: 18px;
+line-height: 30px;
+color:white;
+font-family: Manrope;
+font-weight: 400;
+
+}
+
+.root{
+font-size: 30px;
+margin-right: 20px;
+color: white;
+
+}
+
+.footer_column_text{
+color:grey;
+}
+
+.footer-email, .footer-number{
+font-size: 18px;
+line-height: 20px;
+color:white;
+font-family: Manrope;
+font-weight: 500;
+}
+
+
+
+/*Responsive Section */
+@media only screen and (max-width: 600px) {
+.about-contact-heading{
+font-size: 40px;
+margin-left:90px;
+margin-top: -80px;
+}
+
+.main_banner_section{
+display:flex;
+flex-direction: column;
+align-items: center;
+}
+
+.fa-envelope{
+margin-left:120px;
+}
+
+.email{
+margin-bottom: 20px;
+}
+
+.red{
+margin-right:-36px;
+}
+
+}
+
+/*Form Section*/
+
+.form-container{
+display:flex;
+justify-content: space-around;
+align-items: center;
+
+}
+
+.contact-form-container{
+margin-right: 60px;
+margin-top: -100px;
+margin-left: -80px;
+}
+
+.form{
+height:600px;
+margin-left: 118px;
+}
+
+
+.name-box,.email-box, .number-box ,.place-box{
+width:380px;
+height:60px;
+border-radius: 50px;
+border:1px solid white;
+background:black;
+margin: 30px;
+}
+
+.send-box{
+width:800px;
+height:200px;
+border-radius: 20px;
+background: black;
+border:1px solid white;
+margin-top: 45px;
+margin-left: 45px;
+}
+
+.send{
+margin-top: 45px;
+margin-left: 40px;
+width:180px;
+height:70px;
+border-radius:50px;
+font-size: 18px;
+font-style: normal;
+line-height: 30px;
+font-weight: 400;
+box-shadow: none;
+outline:none;
+transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, outline 0.3s ease-in-out;
+}
+
+.line{
+margin-left: 112px;
+width:600px;
+margin-top: 50px;
+}
+
+.social-media-container{
+display: flex;
+margin-top: 40px;
+justify-content: center;
+align-items: center;
+}
+
+.social-media-text-ten{
+font-size: 20px;
+margin-left: -230px;
+
+}
+
+.social-media-icons-ten{
+display: flex;
+justify-content:center;
+margin-left:500px;
+margin-top: -15px;
+}
+
+.ten{
+margin: 20px;
+font-size: 23px;
+margin-top: -8px;
+margin-left: -4px;
+}
+
+/*Form Responsive */
+
+@media only screen and (max-width: 600px){
+     
+.form-container,.contact-form-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+}
+
+.contact-form-container{
+order:-1;
+margin-top:30px;
+text-align: center;
+}
+
+
+
+.name-box,.email-box, .number-box ,.place-box{
+display:flex;
+flex-direction: column;
+align-items: center;
+width: 300px;
+height:40px;
+margin-left: 150px;
+}
+
+.row-two{
+margin-top: -25px;
+}
+
+.send-box{
+height:200px;
+width:300px;
+margin-left: 130px;
+margin-top: 2px;
+}
+
+.send{
+margin-right: -80px;
+}
+
+.form{
+height:300px;
+width:300px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0 auto;
+}
+
+.social-media-text-ten{
+margin-left: -20px;
+font-size: 15px;
+margin-bottom: 25px;
+}
+
+.social-media-icons-ten{
+display: flex;
+justify-content: center;
+margin-top: 10px;
+margin-left: -163px;
+}
+
+}
+
+/*Our Offices*/
+
