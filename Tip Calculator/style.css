@@ -19,6 +19,7 @@ border-radius: 10px;
 display:block;
 margin:10% auto;
 background: #ec8558;
+box-shadow: 2px 3px 4px #ec8558;
 }
 
 input{
@@ -27,6 +28,7 @@ height:30px;
 border: 1px solid black;
 border-radius: 4px;
 font-size: 15px;
+box-shadow: 3px 3px 2px white;
 }
 
 #btn{
