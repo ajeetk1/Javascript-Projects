@@ -420,5 +420,115 @@ margin-left: -163px;
 
 }
 
-/*Our Offices*/
+/*Our Offices* CSS */
+.office-container{
+display: flex;
+justify-content: center;
+max-width: 100%;
+height:110%;
+background: whitesmoke;
+
+}
+
+.office{
+width:900px;
+}
+
+.grid-item-image{
+margin-top: 10%;
+margin-left: 20px;
+
+}
+
+/* Grid Item Text*/
+
+.office-line{
+width:45px;
+background-color: black;
+height:2px;
+
+}
+
+.grid-item-text{
+margin-top:25%;
+color: black;
+opacity:5;
+}
+
+/* Our Offices Text */
+
+.office-subheading{
+font-size: 18px;
+margin-top: -80px;
+margin-left: 100px;
+}
+
+.office-heading{
+font-size: 60px;
+transform: translate(-15%, -50%);
+line-height: 74px;
+font-weight: 600px;
+font-style: normal;
+}
+
+.office-text{
+margin:-30px 60px;
+font-family: Manrope;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+color: grey;
+}
+
+.office-location{
+margin-left: 58px;
+padding-top: 40px;
+}
+
+.real_address,.envelope{
+display: flex;
+}
+
+.office-address,.office-email{
+margin-top: -3px;
+padding-left: 20px;
+}
+
+.world{
+margin-bottom:300px;
+}
+
+
+/*Mobile Responsive Office Address*/
+
+
+/*FAQ Section */
+
+
+
+.faq-container{
+background: black;
+width:100%;
+height:500px;
+}
+
+.faq-box{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.faq-line{
+display: flex;
+width:45px;
+height:2px;
+}
+
+.faq-heading{
+color: white;
+display: flex;
+justify-content:center;
+text-align:center;
+margin-right:1200px;
+}
 
